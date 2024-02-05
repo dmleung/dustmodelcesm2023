@@ -622,7 +622,7 @@ contains
 
          if (lnd_frc_mbl(p) > 0.0_r8  .AND. tlai_lu(l)<=1_r8) then
             ! vegetation drag partition equation following Okin (2008) + Pierre et al. (2014), dmleung 20 Dec 2021
-            lai(p) = tlai_lu(l)+0.2_r8       ! LAI+SAI averaged to landunit level
+            lai(p) = tlai_lu(l)+0.01_r8       ! LAI+SAI averaged to landunit level
             if (lai(p) > 1_r8) then
                lai(p)  = 1_r8   ! setting LAI ~ 0 to be a threshold value as computing K involves 1 / LAI
             end if
