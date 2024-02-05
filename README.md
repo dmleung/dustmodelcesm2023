@@ -8,4 +8,4 @@ Also, the codes are updated in later CESM versions, and users can find the modif
 https://github.com/ESCOMP/CTSM/pull/1897/files  (these files will not work with CESM2.2 or previous versions)
 Please look for all fiiles under bld and src for the latest dust emission scheme implementation into future CESM versions.
 
-dmleung, 5 Feb 2024
+[![DOI](https://zenodo.org/badge/752948451.svg)](https://zenodo.org/doi/10.5281/zenodo.10621843)
